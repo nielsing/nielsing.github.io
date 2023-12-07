@@ -1,0 +1,120 @@
+baseURL = "https://niels.ing"
+languageCode = 'en-us'
+title = "niels.ing"
+paginate = 5
+theme = "PaperMod"
+enableInlineShortcodes = true
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = true
+pygmentsUseClasses = true
+
+[minify]
+disableXML = true
+
+[languages.en]
+languageName = "English"
+weight = 1
+
+  [languages.en.taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+# [[languages.en.menu.main]]
+# name = "Archive"
+# url = "archives"
+# weight = 5
+
+# [[languages.en.menu.main]]
+# name = "Search"
+# url = "search/"
+# weight = 10
+
+[[languages.en.menu.main]]
+name = "About Me"
+url = "about"
+weight = 1
+
+[[languages.en.menu.main]]
+name = "Posts"
+url = "posts"
+weight = 2
+
+[[languages.en.menu.main]]
+name = "Tags"
+url = "tags/"
+weight = 3
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
+[params]
+env = "production"
+description = "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+author = "nielsing"
+defaultTheme = "dark"
+ShowShareButtons = false
+ShowReadingTime = false
+displayFullLangName = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowRssButtonInSectionTermList = true
+ShowToc = true
+images = [ "papermod-cover.png" ]
+
+  [params.homeInfoParams]
+  Title = "Welcome to Niels' blog"
+  Content = """Writing about CTF challenges, vulnerabilities, and random things I find interesting.
+"""
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/nielsing"
+
+  [[params.socialIcons]]
+  name = "twitter"
+  url = "https://twitter.com/nielsingi"
+
+  [[params.socialIcons]]
+  name = "Rss"
+  url = "index.xml"
+
+  [params.assets]
+  disableHLJS = true
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+codeFences = true
+guessSyntax = true
+noClasses = false
+style = "catppuccin"
+
+[privacy.vimeo]
+disabled = false
+simple = true
+
+[privacy.twitter]
+disabled = false
+enableDNT = true
+simple = true
+
+[privacy.instagram]
+disabled = false
+simple = true
+
+[privacy.youtube]
+disabled = false
+privacyEnhanced = true
+
+[services.instagram]
+disableInlineCSS = true
+
+[services.twitter]
+disableInlineCSS = true
+
