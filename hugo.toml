@@ -44,8 +44,8 @@ url = "posts"
 weight = 2
 
 [[languages.en.menu.main]]
-name = "Tags"
-url = "tags/"
+name = "Categories"
+url = "categories/"
 weight = 3
 
 [outputs]
