@@ -44,8 +44,8 @@ url = "posts"
 weight = 2
 
 [[languages.en.menu.main]]
-name = "Tags"
-url = "tags/"
+name = "Categories"
+url = "categories/"
 weight = 3
 
 [outputs]
@@ -56,6 +56,7 @@ env = "production"
 description = "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
 author = "nielsing"
 defaultTheme = "dark"
+goatcounter = "nielsing"
 ShowShareButtons = false
 ShowReadingTime = false
 displayFullLangName = true
