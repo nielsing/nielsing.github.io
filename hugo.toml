@@ -56,6 +56,7 @@ env = "production"
 description = "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
 author = "nielsing"
 defaultTheme = "dark"
+goatcounter = "nielsing"
 ShowShareButtons = false
 ShowReadingTime = false
 displayFullLangName = true
