@@ -215,7 +215,7 @@ bwolff although that would still require at least a little bit of research.
 We went from discovering an unpatched vulnerability during a CTF, transforming it into a CTF challenge,
 and then witnessing the vulnerability become public during the CTF competition. The coincidence of a
 vulnerability that had been overlooked for almost three years getting patched and disclosed while I 
-hosted a CTF challenge based on it is interesting.
+hosted a CTF challenge based on it is interesting but something I hope will not happen again. 
 
 ## Timeline
 * [2020-11-30 - bwolff reports the vulnerability on behalf of Dylan Katz](https://github.com/Leonidas-from-XIV/node-xml2js/issues/593).
