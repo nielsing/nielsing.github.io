@@ -8,7 +8,6 @@ hidemeta = true
 ### Currently messing around with computers at
 * [GGFÍ](https://ggfi.is) ensuring Iceland's participation in [ECSC](https://ecsc.eu/)
 * [Pwnagaukar](https://twitter.com/pwnagaukar) doing CTFs
-* [Lacework](https://www.lacework.com/) as an AppSec Engineer
 
 ### Conference Talks
 * UTmessan 2022 - Vulnerability Shame (no public recordings exist)
